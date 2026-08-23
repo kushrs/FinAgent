@@ -1,0 +1,51 @@
+# Build folders
+**/target/
+**/dist/
+**/build/
+**/out/
+
+# Dependency folders
+**/node_modules/
+**/.venv/
+**/env/
+**/venv/
+**/ENV/
+
+# Python Cache
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.pytest_cache/
+**/.ipynb_checkpoints/
+
+# IDE and Editor Files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+.factorypath
+.metadata/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Logs and databases
+*.log
+**/postgres_data/
+**/redis_data/
+**/.system_generated/
+**/logs/
+
+# Local configuration files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
